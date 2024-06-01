@@ -5,7 +5,7 @@ body {
 }
 
 div{
-    border: 10px solid black;
+    /* border: 10px solid black; */
 }
 
 
@@ -20,5 +20,21 @@ div{
 }
 
 #main-container{
+    display: flex;
+    flex-direction: column;
     flex: 2;
+
+    
+}
+#disclaimer {
+    background-color: #f9fafc;
+    font-size: 24px;
+    padding: 256px 128px 64px 32px;
+
+
+}
+
+#form-container {
+    height: 500px;
+
 }
