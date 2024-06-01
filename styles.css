@@ -28,8 +28,9 @@ div{
 }
 #disclaimer {
     background-color: #f9fafc;
-    font-size: 24px;
-    padding: 256px 128px 64px 32px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 150px 150px 64px 50px;
 
 
 }
