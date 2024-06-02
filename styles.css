@@ -47,6 +47,7 @@ div{
 #form-container {
     flex: 4;
     padding: 0 0 40px 50px;
+    box-shadow: 5px 5px gray;
 
 }
 
@@ -56,6 +57,7 @@ div{
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 40px;
+    color: #797f87;
     font-family: serif;
     font-weight: 600;
 }
@@ -73,4 +75,23 @@ input {
 #login-container {
     background-color: var(--grayish);
     flex: 4;
+}
+
+#login-container-contents {
+    padding: 50px 0 0 50px;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#create-account-button button{
+    background-color: #596D48;
+    color: white;
+    height: 75px;
+    width: 300px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 16px;
+    font-weight: bold;
 }
