@@ -120,6 +120,15 @@ input {
     border-radius: 5px;
 }
 
+input:invalid {
+    /* border: 2px solid red; */
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: black 0px 5px 10px;
+}
+
 
 #login-container {
     background-color: var(--grayish);
