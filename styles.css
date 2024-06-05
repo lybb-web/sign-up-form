@@ -116,7 +116,10 @@ label
 
 input {
     width: 400px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
 }
+
 
 #login-container {
     background-color: var(--grayish);
